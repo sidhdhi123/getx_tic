@@ -18,6 +18,7 @@ class Controller extends GetxController{
   RxBool isdraw = false.obs;
 
   did_tap(int i) async {
+    print("testing message");
     print(str[i]);
     if (!iswinner.value) {
       if (cnt < 9) {
